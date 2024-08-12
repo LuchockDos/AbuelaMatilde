@@ -4,33 +4,7 @@ body {
   background: linear-gradient(to right, #cd968d, #dfc0b9);
   margin: 0;
   padding: 0;
-}
-
-.navbar {
-  background: linear-gradient(to right, #cd968d, #dfc0b9);
-  position: fixed;
   width: 100%;
-  z-index: 1000;
-}
-
-.navbar-nav .nav-link {
-  color: #000000;
-  font-family: "Quicksand", sans-serif;
-
-  font-weight: 400;
-  font-style: normal;
-  font-size: 20px;
-  word-spacing: 10px;
-}
-
-.nav-item {
-  margin-right: 30px;
-}
-
-.navbar-nav .nav-link.active,
-.navbar-nav .nav-link.disabled {
-  color: #000000;
-  font-family: "Quicksand", sans-serif;
 }
 
 .logo {
@@ -38,193 +12,36 @@ body {
   border-radius: 50px;
 }
 
-.rogel {
-  border-radius: 300px;
+#rogel img {
+  width: 60vh;
+  border-radius: 50%;
   border: 15px solid rgb(165, 123, 123);
-  width: 100%;
-  max-width: 350px;
-  height: auto;
-  float: right;
-  margin: 70px 15px 15px 15px;
   position: relative;
   right: 100px;
 }
-
-.img {
-  text-align: right;
-  padding: 0 15px;
+main {
+  height: 400px;
 }
-
-@media (max-width: 768px) {
-  .navbar-nav .nav-link {
-    font-size: 20px;
-    word-spacing: 5px;
-  }
-
-  .nav-item {
-    margin-right: 15px;
-  }
-
-  .rogel {
-    width: 90%;
-    max-width: 350px;
-    margin-left: 160px;
-    float: none;
-    display: block;
-  }
-  .img {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-}
-
-.texto {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  text-align: left;
-  padding: 0 15px;
-  margin-top: 20px;
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  right: 70px;
-  bottom: -120px;
-}
-
-.Titulo {
-  font-family: "Quicksand", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 60px;
-  margin: 0;
-}
-
-.texto p {
-  font-family: "Quicksand", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 30px;
-  margin: 0;
-}
-
 .st {
-  width: 70px;
-  position: relative;
-  bottom: -200px;
-  left: 120px;
+  width: 30px;
 }
-.instagram {
+#btn {
   font-size: 40px;
-  position: relative;
-  bottom: -240px;
-  left: 1090px;
-  color: black;
-  transition: 0.25s;
+  width: 30%;
 }
-.wsp {
-  font-size: 40px;
-  position: relative;
-  bottom: -240px;
-  left: 1000px;
-  color: black;
-  transition: 0.25s;
+#sin-tacc {
+  width: 50px;
 }
-.social-icon {
-  font-size: 40px;
-  color: black;
+#container-st {
+  width: 85%;
+}
+#ig {
   text-decoration: none;
+  color: black;
 }
-
-.social-icon:hover {
-  color: rgb(165, 123, 123);
+#wsp {
+  color: black;
 }
-@media (max-width: 768px) {
-  .st {
-    width: 50px;
-    position: relative;
-    bottom: -80px;
-    left: 20px;
-  }
-
-  .instagram,
-  .wsp {
-    font-size: 30px;
-    position: relative;
-    bottom: -100px;
-    left: 350px;
-  }
-  .texto {
-    margin-top: 10px;
-    max-width: 90%;
-    margin-left: 10px;
-    margin-right: 10px;
-    right: 0;
-    bottom: 0;
-  }
-
-  .Titulo {
-    font-size: 40px;
-    margin-top: 40px;
-  }
-
-  .texto p {
-    font-size: 25px;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 1024px) {
-  .navbar-nav .nav-link {
-    font-size: 18px;
-    word-spacing: 8px;
-  }
-
-  .nav-item {
-    margin-right: 20px;
-  }
-
-  .rogel {
-    width: 80%;
-    max-width: 350px;
-    margin-left: 100px;
-    right: 50px;
-  }
-
-  .img {
-    padding: 0 20px;
-  }
-
-  .texto {
-    margin-top: 15px;
-    max-width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    right: 40px;
-    bottom: -100px;
-  }
-
-  .Titulo {
-    font-size: 50px;
-    margin-top: 30px;
-  }
-
-  .texto p {
-    font-size: 25px;
-  }
-
-  .st {
-    width: 60px;
-    bottom: -150px;
-    left: 80px;
-  }
-
-  .instagram,
-  .wsp {
-    font-size: 35px;
-    bottom: -150px;
-    left: 800px;
-  }
+#navbarNav {
+  transform: translateX(-99px);
 }
