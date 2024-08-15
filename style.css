@@ -212,6 +212,18 @@ a:hover, a.active{
 #check:checked ~ ul{
   left: 0;
 }
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+body {
+  padding-top: 80px; 
+}
 }
 
 @media (max-width: 858px) {
