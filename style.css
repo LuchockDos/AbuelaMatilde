@@ -97,6 +97,7 @@ main {
   font-family: 'Shadows Into Light', cursive;
   font-size: 5rem;
   font-weight: bold;
+  margin-left: -20%;
 }
 
 footer {
@@ -235,6 +236,10 @@ a:hover, a.active{
   #wsp {
     margin-top: 5%;
     margin-right: 18%; 
+  }
+
+  .Titulo{
+ margin-left: 1%;
   }
 }
 
