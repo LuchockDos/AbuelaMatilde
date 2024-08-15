@@ -21,3 +21,30 @@ body {
   font-size: 20px;
   color: pink;
 }
+
+.card {
+  height: 100%; /* Asegura que la tarjeta ocupe todo el espacio de su contenedor */
+  display: flex;
+  flex-direction: column;
+}
+
+.card-img-top {
+  object-fit: cover; /* Asegura que la imagen se ajuste al contenedor sin deformarse */
+  height: 200px; /* Ajusta la altura de la imagen según tus necesidades */
+  width: 100%; /* La imagen ocupa todo el ancho del contenedor */
+}
+
+.card-body {
+  flex: 1; /* Permite que el cuerpo de la tarjeta ocupe el espacio restante */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-text {
+  margin-bottom: 0.5rem; /* Espaciado entre el texto y el precio */
+}
+
+.font-weight-bold {
+  font-weight: bold; /* Estilo del precio */
+}

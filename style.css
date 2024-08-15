@@ -62,7 +62,7 @@ a:hover {
   display: none;
 }
 
-/* Ajustes en los elementos principales */
+
 main {
   display: flex;
   justify-content: center;
@@ -74,7 +74,7 @@ main {
 
 #container-main {
   display: flex;
-  flex-wrap: wrap; /* Permite que los elementos se ajusten en múltiples filas si es necesario */
+  flex-wrap: wrap; 
   justify-content:space-between;
   align-items: center;
   width: 150%;
@@ -82,7 +82,7 @@ main {
 }
 
 #container-main > div {
-  flex: 1 1 300px; /* Las secciones ocupan espacio de manera equitativa y se ajustan a un mínimo de 300px */
+  flex: 1 1 300px; 
   text-align: center;
 }
 
@@ -142,9 +142,9 @@ footer {
   right: 20%;
 }
 #rogel {
-  flex: 0 1 auto; /* Ajusta el tamaño del contenedor de la imagen */
+  flex: 0 1 auto; 
   display: flex;
-  justify-content: flex-end; /* Alinea la imagen hacia la derecha */
+  justify-content: flex-end; 
 }
 
 .container-texto{
