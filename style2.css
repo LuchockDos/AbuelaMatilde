@@ -1,14 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Shadows+Into+Light&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=DM+Serif+Display:ital@0;1&family=Lobster&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Yanone+Kaffeesatz:wght@200..700&display=swap');
 
 body {
   font-family: "Shadows Into Light", cursive;
+  background: linear-gradient(to right, #cd968d, #dfc0b9);
 }
 
 .card-text {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  font-size: 22px;
+  font-size: 24px;
   color: #333;
+
 }
 
 .card-body p {
@@ -19,32 +21,66 @@ body {
   font-family: "Quicksand", sans-serif;
   font-weight: 700;
   font-size: 20px;
-  color: pink;
+  color: rgb(123, 59, 69);
 }
 
 .card {
-  height: 100%; /* Asegura que la tarjeta ocupe todo el espacio de su contenedor */
+  height: 100%; 
   display: flex;
   flex-direction: column;
+  border: none; 
+  box-shadow: none !important;
 }
 
 .card-img-top {
-  object-fit: cover; /* Asegura que la imagen se ajuste al contenedor sin deformarse */
-  height: 200px; /* Ajusta la altura de la imagen según tus necesidades */
-  width: 100%; /* La imagen ocupa todo el ancho del contenedor */
+  object-fit: cover; 
+  height: 200px; 
+  width: 100%; 
 }
 
 .card-body {
-  flex: 1; /* Permite que el cuerpo de la tarjeta ocupe el espacio restante */
+  flex: 1; 
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
 .card-text {
-  margin-bottom: 0.5rem; /* Espaciado entre el texto y el precio */
+  margin-bottom: 0.5rem; 
 }
 
 .font-weight-bold {
-  font-weight: bold; /* Estilo del precio */
+  font-weight: bold; 
+}
+
+.separator {
+  text-align: left;
+  margin: 20px 0;
+  position: relative;
+  margin-top: 10%;
+}
+
+.separator::before,
+.separator::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  border-top: 1px solid rgb(123, 59, 69);; 
+  top: 0;
+  left: 0;
+}
+
+.separator::after {
+  top: 100%;
+  border-top: none;
+  border-bottom: 1px solid rgb(123, 59, 69);; 
+}
+
+.separator span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  display: inline-block;
+  padding: 20px 20px;
+font-size: 50px;
+color:rgb(123, 59, 69);
 }
