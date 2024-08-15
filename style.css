@@ -1,14 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Shadows+Into+Light&display=swap");
 
 body {
-  background: linear-gradient(to right, #cd968d, #dfc0b9);
+  background: linear-gradient(to right, #cd968d, #cd968d);
   margin: 0;
   padding: 0;
   width: 100%;
 }
 
 nav {
-  background: linear-gradient(to right, #cd968d, #dfc0b9);
+  background: linear-gradient(to right, #cd968d, #cd968d);
   width: 100%;
   height: 80px;
 }
