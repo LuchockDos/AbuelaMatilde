@@ -176,4 +176,21 @@ margin-left: -15%;
     background-color: #cd7373;
 
   }
-}
+  .container {
+    margin-bottom: -300px;
+  }
+
+  }
+
+  @media (max-width: 858px){
+    .checkbtn{
+        display: block;
+        position: absolute;
+        right: 0; 
+        font-size: 30px;
+        color: white;
+        cursor: pointer;
+        margin-top: 28px;
+    }
+  }
+  
