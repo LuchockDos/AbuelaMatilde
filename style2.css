@@ -70,7 +70,8 @@ position: relative;
 left: 150px;
 top: 60px;
 font-family: "Montserrat", sans-serif;
-  font-weight: 500;
+  font-weight: bold;
+  color: #333;
 }
 
 body {
