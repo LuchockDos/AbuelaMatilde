@@ -10,8 +10,29 @@
     />
 
     <link rel="stylesheet" href="style2.css" />
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
   </head>
   <body>
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo"><img src="./img/images.jfif" class="logo"></label>
+    
+      <ul>
+        <li><a href='index.html'>Inicio</a></li>
+        <li><a href='index2.html'>Menu</a></li>
+        <li><a href='#'>Sucursales</a></li>
+        
+      </ul>
+    </nav>
+
+    <div class="titulo">
+      <h1>Nuestra carta</h1>
+    </div>
+
     <div class="container">
       <div class="separator">
         <span>Café</span>
@@ -41,4 +62,48 @@
 
     <script src="main.js"></script>
   </body>
+  <footer>
+    <style>
+ 
+    </style>
+    <div class="d-flex justify-content-around w-40 mt-4 container">
+      <div id="container-st">
+        <img
+          id="sin-tacc"
+          src="./img/sin_gluten_legal-02.png"
+          alt="SinTacc"
+          class="st"
+        />
+      </div>
+      <div id="btn">
+        <a
+          id="ig"
+          href="https://www.instagram.com/abuelamatildepasteleriasintacc/"
+          target="_blank"
+          class="social-icon instagram"
+        >
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+        <a
+          id="wsp"
+          href="https://wa.me/5493482626347"
+          target="_blank"
+          class="social-icon wsp"
+        >
+          <ion-icon name="logo-whatsapp"></ion-icon>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+
+      <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
 </html>
