@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Shadows+Into+Light&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=DM+Serif+Display:ital@0;1&family=Lobster&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Yanone+Kaffeesatz:wght@200..700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=DM+Serif+Display:ital@0;1&family=Lobster&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Yanone+Kaffeesatz:wght@200..700&display=swap");
 
 body {
   background: linear-gradient(to right, #cd968d, #cd968d);
@@ -22,12 +21,10 @@ nav {
   margin-top: 4px;
 }
 
-
-
 nav ul {
   float: right;
   margin-right: 14%;
-  list-style-type: none; 
+  list-style-type: none;
 }
 
 nav ul li {
@@ -68,7 +65,6 @@ a:hover {
   display: none;
 }
 
-
 main {
   display: flex;
   justify-content: center;
@@ -80,15 +76,15 @@ main {
 
 #container-main {
   display: flex;
-  flex-wrap: wrap; 
-  justify-content:space-between;
+  flex-wrap: wrap;
+  justify-content: space-between;
   align-items: center;
   width: 150%;
   padding: 20px;
 }
 
 #container-main > div {
-  flex: 1 1 300px; 
+  flex: 1 1 300px;
   text-align: center;
 }
 
@@ -100,7 +96,7 @@ main {
   margin-left: 20%;
 }
 .Titulo {
-  font-family: 'Shadows Into Light', cursive;
+  font-family: "Shadows Into Light", cursive;
   font-size: 5rem;
   font-weight: bold;
   margin-left: -20%;
@@ -131,10 +127,9 @@ footer {
   display: flex;
   justify-content: space-around;
   width: 150px;
- 
 }
 
-#ig{
+#ig {
   position: absolute;
   right: 0;
   color: black;
@@ -150,16 +145,16 @@ footer {
   right: 20%;
 }
 #rogel {
-  flex: 0 1 auto; 
+  flex: 0 1 auto;
   display: flex;
-  justify-content: flex-end; 
+  justify-content: flex-end;
 }
 
-.container-texto{
+.container-texto {
   display: inline-block;
   margin-bottom: 8%;
 }
-.container-texto p{
+.container-texto p {
   margin-left: 10%;
   text-align: left;
   font-family: "Montserrat", sans-serif;
@@ -167,26 +162,26 @@ footer {
 
 footer {
   display: flex;
-  justify-content: flex-end; 
-  padding: 0 20px; 
+  justify-content: flex-end;
+  padding: 0 20px;
   margin-top: 20px;
 }
 
-@media (max-width: 952px){
-  nav ul li a{
+@media (max-width: 952px) {
+  nav ul li a {
     font-size: 16px;
   }
 }
-@media (max-width: 858px){
-  .checkbtn{
-      display: block;
-      position: absolute;
-      right: 0; 
-      font-size: 30px;
-      color: white;
-      cursor: pointer;
+@media (max-width: 858px) {
+  .checkbtn {
+    display: block;
+    position: absolute;
+    right: 0;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
   }
-  ul{
+  ul {
     position: fixed;
     width: 100%;
     height: 100vh;
@@ -194,44 +189,45 @@ footer {
     top: 80px;
     left: -100%;
     text-align: center;
-    transition: left .5s;
+    transition: left 0.5s;
   }
-nav ul li{
-  display: block;
-  margin: 50px 0;
-  line-height: 30px;
-}
-nav ul li a{
-  font-size: 20px;
-}
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a {
+    font-size: 20px;
+  }
 
-a:hover, a.active{
-  color: rgb(123, 59, 69);
-}
+  a:hover,
+  a.active {
+    color: rgb(123, 59, 69);
+  }
 
-#check:checked ~ ul{
-  left: 0;
-}
+  #check:checked ~ ul {
+    left: 0;
+  }
 
-nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1000;
-}
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
 
-body {
-  padding-top: 80px; 
-}
+  body {
+    padding-top: 80px;
+  }
 }
 
 @media (max-width: 858px) {
-  .container-texto{
+  .container-texto {
     display: inline-block;
     margin-top: 80%;
   }
-  .container-texto p{
+  .container-texto p {
     margin-left: 25%;
     text-align: center;
   }
@@ -239,27 +235,25 @@ body {
     margin-left: 3%;
   }
   #btn {
-   margin-top: 80%;
-
+    margin-top: 80%;
   }
   .st {
     width: 50px;
     margin-top: 60%;
-   margin-left: 35%;
+    margin-left: 35%;
   }
 
   #ig {
     margin-top: 5%;
-    margin-right: 40%; 
+    margin-right: 40%;
   }
 
   #wsp {
     margin-top: 5%;
-    margin-right: 18%; 
+    margin-right: 18%;
   }
 
-  .Titulo{
- margin-left: 1%;
+  .Titulo {
+    margin-left: 1%;
   }
 }
-
