@@ -121,3 +121,42 @@ footer {
     font-size: 50px;
   }
 }
+
+
+@media (max-width: 360px) {
+  .container-texto {
+    display: inline-block;
+    margin-top: 85%; /* Ajusta el espacio superior según sea necesario */
+    margin-left: 18%; /* Ajusta el espacio izquierdo según sea necesario */
+  }
+
+  .container-texto p {
+    text-align: center;
+
+  }
+
+  #rogel img {
+    margin-left: 1%; /* Ajusta el espacio izquierdo de la imagen */
+    width: 100px; /* Ajusta el ancho de la imagen */
+  }
+
+  #btn {
+    margin-top: 100%; /* Ajusta el espacio superior del botón */
+    margin-left: 60%;
+  }
+
+  #ig, #wsp {
+    width: 20%;
+    margin-top: 5%; /* Ajusta el espacio superior */
+  }
+
+#sin-tacc{
+  margin-top: 130%;
+  margin-left: 70%;
+  width: 20%;
+}
+
+  .Titulo {
+    margin-top: 10%; /* Ajusta el espacio izquierdo del título */
+  }
+}
