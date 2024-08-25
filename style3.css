@@ -105,7 +105,11 @@ footer {
     align-items: center;
   }
   .direccion .avda {
-    margin-right: 15%;
+    margin-left: 27%;
+    margin-bottom: 10%;
+  }
+  .direccion .rqta {
+    margin-left: 27%;
     margin-bottom: 10%;
   }
   #sucu {
