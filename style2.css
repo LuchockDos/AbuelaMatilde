@@ -186,29 +186,26 @@ body {
   }
 }
 
-
-
 @media (max-width: 360px) {
- 
   #btn {
-    margin-top: 100%; /* Ajusta el espacio superior del botón */
+    margin-top: 100%;
     margin-left: 60%;
-
   }
 
-  #ig, #wsp {
+  #ig,
+  #wsp {
     width: 20%;
-    margin-top: 5%; /* Ajusta el espacio superior */
+    margin-top: 5%;
   }
 
-#sin-tacc{
-  margin-top: 130%;
+  #sin-tacc {
+    margin-top: 130%;
 
-  width: 20%;
-}
+    width: 20%;
+  }
 
-h1{
-  margin-right: 110%;
-  text-align: center;
-}
+  h1 {
+    margin-right: 110%;
+    text-align: center;
+  }
 }

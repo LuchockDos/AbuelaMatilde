@@ -257,47 +257,40 @@ footer {
     margin-left: 1%;
   }
 }
-@media (max-width: 360px) {
-  /* Estilos para dispositivos pequeños */
 
-  /* Nav */
-  nav {
-    height: 60px;
-  }
-  nav ul {
-    flex-direction: column;
-  }
-  nav ul li {
-    margin: 10px 0;
-  }
-  nav ul li a {
-    font-size: 16px;
-  }
-
-  /* Main */
-  main {
-    height: 300px;
-  }
+@media only screen and (max-width: 320px) {
   #container-main {
     flex-direction: column;
-  }
-  #container-main > div {
-    flex: 1 1 100%;
-  }
-  .container-texto {
-    margin-top: 20%;
-  }
-  .container-texto p {
-    margin-left: 10%;
-    text-align: center;
-  }
-  #rogel img {
-    width: 40vh;
-    margin-left: 10%;
+    padding: 10px;
   }
 
-  .Titulo {
-    font-size: 3rem;
-    margin-left: 5%;
+  .logo {
+    width: 100px;
+    height: 100px;
   }
+
+  .container-texto {
+    font-size: 14px;
+    margin-top: 125%;
+  }
+
+  #rogel {
+    width: 100%;
+    height: auto;
+  }
+
+  footer {
+    font-size: 12px;
+    margin-top: 40%;
+  }
+
+  .social-icon {
+    font-size: 20px;
+  }
+  #wsp {
+    margin-right: 10%;
+  }
+}
+
+@media only screen and (max-width: 240px) {
 }
