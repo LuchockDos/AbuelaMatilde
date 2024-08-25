@@ -185,3 +185,29 @@ body {
     margin-top: 28px;
   }
 }
+
+
+
+@media (max-width: 360px) {
+ 
+  #btn {
+    margin-top: 100%; /* Ajusta el espacio superior del botón */
+    margin-left: 60%;
+
+  }
+
+  #ig, #wsp {
+    width: 20%;
+    margin-top: 5%; /* Ajusta el espacio superior */
+  }
+
+#sin-tacc{
+  margin-top: 130%;
+
+  width: 20%;
+}
+
+  .titulo {
+    margin-right: -80%; 
+  }
+}
