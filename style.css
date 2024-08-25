@@ -257,3 +257,47 @@ footer {
     margin-left: 1%;
   }
 }
+@media (max-width: 360px) {
+  /* Estilos para dispositivos pequeños */
+
+  /* Nav */
+  nav {
+    height: 60px;
+  }
+  nav ul {
+    flex-direction: column;
+  }
+  nav ul li {
+    margin: 10px 0;
+  }
+  nav ul li a {
+    font-size: 16px;
+  }
+
+  /* Main */
+  main {
+    height: 300px;
+  }
+  #container-main {
+    flex-direction: column;
+  }
+  #container-main > div {
+    flex: 1 1 100%;
+  }
+  .container-texto {
+    margin-top: 20%;
+  }
+  .container-texto p {
+    margin-left: 10%;
+    text-align: center;
+  }
+  #rogel img {
+    width: 40vh;
+    margin-left: 10%;
+  }
+
+  .Titulo {
+    font-size: 3rem;
+    margin-left: 5%;
+  }
+}
