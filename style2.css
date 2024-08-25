@@ -207,7 +207,8 @@ body {
   width: 20%;
 }
 
-  .titulo {
-    margin-right: -80%; 
-  }
+h1{
+  margin-right: 110%;
+  text-align: center;
+}
 }
