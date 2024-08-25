@@ -292,5 +292,14 @@ footer {
   }
 }
 
-@media only screen and (max-width: 240px) {
+@media only screen and (max-width: 200px) {
+  .Titulo {
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center; /* Añade esto para centrar el título */
+  }
+  #container-main {
+    padding: 20px; /* Añade esto para darle más espacio al contenedor del título */
+  }
 }
